@@ -5,7 +5,6 @@ import com.test.aemetBackendTest.application.dto.TomorrowPredictionResponseDTO;
 import com.test.aemetBackendTest.shared.enumeration.TemperatureUnit;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api")
 public class PredictionResource {
